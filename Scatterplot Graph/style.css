@@ -1,0 +1,29 @@
+body {
+    font-family: "Helvetica", sans-serif;
+    background-color:white;
+  }
+
+.canvas {
+  background-color: white;
+  display: flex;  
+  margin: auto;
+  margin-top: 0.5rem; 
+  /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8); */
+  }
+
+.dot {
+  stroke: rgb(31, 31, 31); /* Color del borde */  
+  stroke-width: 0.4; /* Grosor del borde */
+  }
+
+#tooltip {
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+  background-color: #9cb1c4;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+  font-family: 'Arial', Times, serif;
+  font-size: 12px;
+  padding: .3rem;
+  border-radius: 5px;
+  } 
